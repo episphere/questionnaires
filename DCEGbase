@@ -1,1 +1,51 @@
-
+{
+ pages: [
+  {
+   name: "page1",
+   elements: [
+    {
+     type: "html",
+     name: "title",
+     html: "<h2 style=\"color:maroon\">DCEG COHORT BASELINE QUESTIONNAIRE</h2>\n<h3>DRAFT JUNE 6, 2018</h3>\n"
+    },
+    {
+     type: "radiogroup",
+     name: "What is the highest level of school that you have completed?",
+     choices: [
+      {
+       value: "item1",
+       text: "Grade school (grades 1-8)"
+      },
+      {
+       value: "item2",
+       text: "Some high school (grades 9-11)"
+      },
+      {
+       value: "item3",
+       text: "High school graduate or GED"
+      },
+      {
+       value: "item4",
+       text: "other ..."
+      }
+     ]
+    },
+    {
+     type: "radiogroup",
+     name: "question1",
+     title: "Do you currently work for pay?",
+     choices: [
+      {
+       value: "item1",
+       text: "Yes"
+      },
+      {
+       value: "item2",
+       text: "No"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
