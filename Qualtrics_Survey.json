@@ -1,0 +1,1607 @@
+{
+    "result": {
+        "id": "SV_6Mslk3J0hH5wMvP",
+        "name": "03012018 DEMO",
+        "ownerId": "UR_bK5zeOW5k7d3Qa1",
+        "organizationId": "norc",
+        "isActive": true,
+        "creationDate": "2018-03-01T13:59:43Z",
+        "lastModifiedDate": "2018-09-10T16:32:42Z",
+        "expiration": {
+            "startDate": null,
+            "endDate": null
+        },
+        "questions": {
+            "QID1": {
+                "questionType": {
+                    "type": "MC",
+                    "selector": "SAVR",
+                    "subSelector": "TX"
+                },
+                "questionText": "Welcome to my survey! If you agree to continue, please check the box below and then press BEGIN SURVEY.",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "CONSENT",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "A",
+                        "choiceText": "A",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "B",
+                        "choiceText": "B",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "C",
+                        "choiceText": "C",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID17": {
+                "questionType": {
+                    "type": "MC",
+                    "selector": "SAHR",
+                    "subSelector": "TX"
+                },
+                "questionText": "<div>Click to write the question text</div><div><br></div><div>${e://Field/PROJECT_NAME}<br></div>",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q17",
+                "choices": {
+                    "6": {
+                        "recode": "6",
+                        "description": "<div style=\"visibility: hidden;\">.</div>",
+                        "choiceText": "<div style=\"visibility: hidden;\">.</div>",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "8": {
+                        "recode": "8",
+                        "description": "Click to write Choice 2",
+                        "choiceText": "Click to write Choice 2",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "9": {
+                        "recode": "9",
+                        "description": "Click to write Choice 3",
+                        "choiceText": "Click to write Choice 3",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID11": {
+                "questionType": {
+                    "type": "Timing",
+                    "selector": "PageTimer",
+                    "subSelector": null
+                },
+                "questionText": "Timing",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "CONSENT_TIME",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "First Click",
+                        "choiceText": "First Click",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Last Click",
+                        "choiceText": "Last Click",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Page Submit",
+                        "choiceText": "Page Submit",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "4": {
+                        "recode": "4",
+                        "description": "Click Count",
+                        "choiceText": "Click Count",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID2": {
+                "questionType": {
+                    "type": "TE",
+                    "selector": "SL",
+                    "subSelector": null
+                },
+                "questionText": "How old are you?",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": true,
+                    "type": "ValidNumber",
+                    "settings": {
+                        "maxDecimals": 0,
+                        "maximum": 100,
+                        "minimum": 0
+                    }
+                },
+                "questionName": "Q2"
+            },
+            "QID3": {
+                "questionType": {
+                    "type": "MC",
+                    "selector": "SAVR",
+                    "subSelector": "TX"
+                },
+                "questionText": "Are you part of group A, B, or C?",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": true
+                },
+                "questionName": "Q3",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "A",
+                        "choiceText": "A",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "B",
+                        "choiceText": "B",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "C",
+                        "choiceText": "C",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID12": {
+                "questionType": {
+                    "type": "MC",
+                    "selector": "SAVR",
+                    "subSelector": "TX"
+                },
+                "questionText": "Click to write the question text",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q12",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Click to write Choice 1",
+                        "choiceText": "Click to write Choice 1",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Click to write Choice 2",
+                        "choiceText": "Click to write Choice 2",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Click to write Choice 3",
+                        "choiceText": "Click to write Choice 3",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID14": {
+                "questionType": {
+                    "type": "SBS",
+                    "selector": "SBSMatrix",
+                    "subSelector": null
+                },
+                "questionText": "Click to write the question text",
+                "questionLabel": null,
+                "questionName": "Q14",
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "columns": {
+                    "1": {
+                        "questionType": {
+                            "type": "Matrix",
+                            "selector": "TE",
+                            "subSelector": "Medium"
+                        },
+                        "questionText": "Click to write Column 1",
+                        "questionLabel": null,
+                        "validation": {
+                            "doesForceResponse": false,
+                            "type": "USPhone"
+                        },
+                        "choices": {
+                            "1": {
+                                "recode": "1",
+                                "description": "Answer 1",
+                                "choiceText": "Answer 1",
+                                "imageDescription": null,
+                                "analyze": true
+                            }
+                        }
+                    },
+                    "2": {
+                        "questionType": {
+                            "type": "Matrix",
+                            "selector": "TE",
+                            "subSelector": "Medium"
+                        },
+                        "questionText": "Click to write Column 2",
+                        "questionLabel": null,
+                        "validation": {
+                            "doesForceResponse": false
+                        },
+                        "choices": {
+                            "1": {
+                                "recode": "1",
+                                "description": "Answer 1",
+                                "choiceText": "Answer 1",
+                                "imageDescription": null,
+                                "analyze": true
+                            }
+                        }
+                    },
+                    "3": {
+                        "questionType": {
+                            "type": "Matrix",
+                            "selector": "TE",
+                            "subSelector": "Medium"
+                        },
+                        "questionText": "Click to write Column 3",
+                        "questionLabel": null,
+                        "validation": {
+                            "doesForceResponse": false
+                        },
+                        "choices": {
+                            "1": {
+                                "recode": "1",
+                                "description": "Answer 1",
+                                "choiceText": "Answer 1",
+                                "imageDescription": null,
+                                "analyze": true
+                            }
+                        }
+                    },
+                    "4": {
+                        "questionType": {
+                            "type": "Matrix",
+                            "selector": "Likert",
+                            "subSelector": "MultipleAnswer"
+                        },
+                        "questionText": "Click to write Column 4",
+                        "questionLabel": null,
+                        "validation": {
+                            "doesForceResponse": false
+                        },
+                        "choices": {
+                            "1": {
+                                "recode": "1",
+                                "description": "Answer 1",
+                                "choiceText": "Answer 1",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "2": {
+                                "recode": "2",
+                                "description": "Answer 2",
+                                "choiceText": "Answer 2",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "3": {
+                                "recode": "3",
+                                "description": "Answer 3",
+                                "choiceText": "Answer 3",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "4": {
+                                "recode": "4",
+                                "description": "Answer 4",
+                                "choiceText": "Answer 4",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "5": {
+                                "recode": "5",
+                                "description": "Answer 5",
+                                "choiceText": "Answer 5",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "6": {
+                                "recode": "6",
+                                "description": "Answer 6",
+                                "choiceText": "Answer 6",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "7": {
+                                "recode": "7",
+                                "description": "Answer 7",
+                                "choiceText": "Answer 7",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "8": {
+                                "recode": "8",
+                                "description": "Answer 8",
+                                "choiceText": "Answer 8",
+                                "imageDescription": null,
+                                "analyze": true
+                            },
+                            "9": {
+                                "recode": "9",
+                                "description": "Answer 9",
+                                "choiceText": "Answer 9",
+                                "imageDescription": null,
+                                "analyze": true
+                            }
+                        }
+                    }
+                },
+                "subQuestions": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Click to write Statement 1",
+                        "choiceText": "Click to write Statement 1",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Click to write Statement 2",
+                        "choiceText": "Click to write Statement 2",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Click to write Statement 3",
+                        "choiceText": "Click to write Statement 3",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "4": {
+                        "recode": "4",
+                        "description": "Click to write Statement 4",
+                        "choiceText": "Click to write Statement 4",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "5": {
+                        "recode": "5",
+                        "description": "Click to write Statement 5",
+                        "choiceText": "Click to write Statement 5",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "6": {
+                        "recode": "6",
+                        "description": "Click to write Statement 6",
+                        "choiceText": "Click to write Statement 6",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "7": {
+                        "recode": "7",
+                        "description": "Click to write Statement 7",
+                        "choiceText": "Click to write Statement 7",
+                        "variableName": null,
+                        "imageDescription": null
+                    }
+                }
+            },
+            "QID16": {
+                "questionType": {
+                    "type": "CS",
+                    "selector": "VRTL",
+                    "subSelector": "TX"
+                },
+                "questionText": "Click to write the question text",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q16",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Click to write Choice 1",
+                        "choiceText": "Click to write Choice 1",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Click to write Choice 2",
+                        "choiceText": "Click to write Choice 2",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Click to write Choice 3",
+                        "choiceText": "Click to write Choice 3",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID15": {
+                "questionType": {
+                    "type": "Timing",
+                    "selector": "PageTimer",
+                    "subSelector": null
+                },
+                "questionText": "Timing",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "SCREEN TIME",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "First Click",
+                        "choiceText": "First Click",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Last Click",
+                        "choiceText": "Last Click",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Page Submit",
+                        "choiceText": "Page Submit",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "4": {
+                        "recode": "4",
+                        "description": "Click Count",
+                        "choiceText": "Click Count",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID4": {
+                "questionType": {
+                    "type": "MC",
+                    "selector": "SAVR",
+                    "subSelector": "TX"
+                },
+                "questionText": "Which of the following do you like more?",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": true
+                },
+                "questionName": "Q4",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Cats",
+                        "choiceText": "Cats",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Dogs",
+                        "choiceText": "Dogs",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Llamas",
+                        "choiceText": "Llamas",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "4": {
+                        "recode": "4",
+                        "description": "Gerbils",
+                        "choiceText": "Gerbils",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "5": {
+                        "recode": "5",
+                        "description": "Chickens",
+                        "choiceText": "Chickens",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "6": {
+                        "recode": "6",
+                        "description": "Sloths",
+                        "choiceText": "Sloths",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID8": {
+                "questionType": {
+                    "type": "DB",
+                    "selector": "TB",
+                    "subSelector": null
+                },
+                "questionText": "Thank you for participating in the survey ${q://QID6/ChoiceTextEntryValue}. Have a great day!<div><br></div><div>Please press the SUBMIT SURVEY button to finalize your responses.</div>",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q8"
+            },
+            "QID13": {
+                "questionType": {
+                    "type": "Slider",
+                    "selector": "HSLIDER",
+                    "subSelector": null
+                },
+                "questionText": "Click to write the question text",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q13",
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Click to write Choice 1",
+                        "choiceText": "Click to write Choice 1",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Click to write Choice 2",
+                        "choiceText": "Click to write Choice 2",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Click to write Choice 3",
+                        "choiceText": "Click to write Choice 3",
+                        "imageDescription": null,
+                        "variableName": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID6": {
+                "questionType": {
+                    "type": "TE",
+                    "selector": "SL",
+                    "subSelector": null
+                },
+                "questionText": "What name do you go by my good friend?",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": true,
+                    "type": "ValidTextOnly"
+                },
+                "questionName": "Q5"
+            },
+            "QID5": {
+                "questionType": {
+                    "type": "Matrix",
+                    "selector": "Likert",
+                    "subSelector": "SingleAnswer"
+                },
+                "questionText": "Hi ${q://QID6/ChoiceTextEntryValue}. Have you done any of the following in the last six months?",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q6",
+                "subQuestions": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Visited a doctor?",
+                        "choiceText": "Visited a doctor?",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Attended a baseball game?",
+                        "choiceText": "Attended a baseball game?",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Watched a PG-13 movie?",
+                        "choiceText": "Watched a PG-13 movie?",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "4": {
+                        "recode": "4",
+                        "description": "Eaten a bagel?",
+                        "choiceText": "Eaten a bagel?",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "5": {
+                        "recode": "5",
+                        "description": "Exercised for at least 30 minutes?",
+                        "choiceText": "Exercised for at least 30 minutes?",
+                        "variableName": null,
+                        "imageDescription": null
+                    }
+                },
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Yes",
+                        "choiceText": "Yes",
+                        "imageDescription": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "No",
+                        "choiceText": "No",
+                        "imageDescription": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Don't know",
+                        "choiceText": "Don't know",
+                        "imageDescription": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID7": {
+                "questionType": {
+                    "type": "Matrix",
+                    "selector": "Likert",
+                    "subSelector": "SingleAnswer"
+                },
+                "questionText": "Thank you for helping out so far. Think about the last time you dealt with the following groups and please tell us how pleased you were with their assistance.",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q7",
+                "subQuestions": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Insurance sales department",
+                        "choiceText": "Insurance sales department",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "IT Support",
+                        "choiceText": "IT Support",
+                        "variableName": null,
+                        "imageDescription": null
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Comcast",
+                        "choiceText": "Comcast",
+                        "variableName": null,
+                        "imageDescription": null
+                    }
+                },
+                "choices": {
+                    "1": {
+                        "recode": "1",
+                        "description": "Very pleased",
+                        "choiceText": "Very pleased",
+                        "imageDescription": null,
+                        "analyze": true
+                    },
+                    "2": {
+                        "recode": "2",
+                        "description": "Neither pleased or displayed",
+                        "choiceText": "Neither pleased or displayed",
+                        "imageDescription": null,
+                        "analyze": true
+                    },
+                    "3": {
+                        "recode": "3",
+                        "description": "Very displeased",
+                        "choiceText": "Very displeased",
+                        "imageDescription": null,
+                        "analyze": true
+                    }
+                }
+            },
+            "QID9": {
+                "questionType": {
+                    "type": "DB",
+                    "selector": "TB",
+                    "subSelector": null
+                },
+                "questionText": "Thank you for participating in the survey ${q://QID6/ChoiceTextEntryValue}. Have a great day!<div><br></div><div>Please press the SUBMIT SURVEY button to finalize your responses.</div>",
+                "questionLabel": null,
+                "validation": {
+                    "doesForceResponse": false
+                },
+                "questionName": "Q9"
+            }
+        },
+        "exportColumnMap": {
+            "CONSENT": {
+                "question": "QID1"
+            },
+            "Q17": {
+                "question": "QID17"
+            },
+            "CONSENT_TIME_1": {
+                "question": "QID11",
+                "choice": "QID11.choices.1"
+            },
+            "CONSENT_TIME_2": {
+                "question": "QID11",
+                "choice": "QID11.choices.2"
+            },
+            "CONSENT_TIME_3": {
+                "question": "QID11",
+                "choice": "QID11.choices.3"
+            },
+            "CONSENT_TIME_4": {
+                "question": "QID11",
+                "choice": "QID11.choices.4"
+            },
+            "Q2": {
+                "question": "QID2"
+            },
+            "Q3": {
+                "question": "QID3"
+            },
+            "Q12": {
+                "question": "QID12"
+            },
+            "Q14#1_1_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_2_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_3_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_4_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_5_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_6_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#1_7_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.1",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.1.choices.1"
+            },
+            "Q14#2_1_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_2_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_3_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_4_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_5_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_6_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#2_7_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.2",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.2.choices.1"
+            },
+            "Q14#3_1_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_2_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_3_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_4_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_5_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_6_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#3_7_1_TEXT": {
+                "question": "QID14",
+                "column": "QID14.columns.3",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.3.choices.1"
+            },
+            "Q14#4_1_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_1_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_1_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_1_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_1_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_1_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_1_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_1_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_1_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.1",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_2_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_2_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_2_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_2_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_2_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_2_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_2_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_2_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_2_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.2",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_3_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_3_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_3_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_3_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_3_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_3_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_3_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_3_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_3_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.3",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_4_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_4_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_4_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_4_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_4_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_4_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_4_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_4_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_4_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.4",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_5_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_5_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_5_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_5_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_5_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_5_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_5_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_5_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_5_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.5",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_6_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_6_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_6_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_6_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_6_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_6_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_6_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_6_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_6_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.6",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q14#4_7_1": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.1"
+            },
+            "Q14#4_7_2": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.2"
+            },
+            "Q14#4_7_3": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.3"
+            },
+            "Q14#4_7_4": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.4"
+            },
+            "Q14#4_7_5": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.5"
+            },
+            "Q14#4_7_6": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.6"
+            },
+            "Q14#4_7_7": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.7"
+            },
+            "Q14#4_7_8": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.8"
+            },
+            "Q14#4_7_9": {
+                "question": "QID14",
+                "column": "QID14.columns.4",
+                "subQuestion": "QID14.subQuestions.7",
+                "choice": "QID14.columns.4.choices.9"
+            },
+            "Q16_1": {
+                "question": "QID16",
+                "choice": "QID16.choices.1"
+            },
+            "Q16_2": {
+                "question": "QID16",
+                "choice": "QID16.choices.2"
+            },
+            "Q16_3": {
+                "question": "QID16",
+                "choice": "QID16.choices.3"
+            },
+            "SCREEN TIME_1": {
+                "question": "QID15",
+                "choice": "QID15.choices.1"
+            },
+            "SCREEN TIME_2": {
+                "question": "QID15",
+                "choice": "QID15.choices.2"
+            },
+            "SCREEN TIME_3": {
+                "question": "QID15",
+                "choice": "QID15.choices.3"
+            },
+            "SCREEN TIME_4": {
+                "question": "QID15",
+                "choice": "QID15.choices.4"
+            },
+            "Q4": {
+                "question": "QID4"
+            },
+            "Q8": {
+                "question": "QID8"
+            },
+            "Q13_1": {
+                "question": "QID13",
+                "choice": "QID13.choices.1"
+            },
+            "Q13_2": {
+                "question": "QID13",
+                "choice": "QID13.choices.2"
+            },
+            "Q13_3": {
+                "question": "QID13",
+                "choice": "QID13.choices.3"
+            },
+            "Q5": {
+                "question": "QID6"
+            },
+            "Q6_1": {
+                "question": "QID5",
+                "subQuestion": "QID5.subQuestions.1"
+            },
+            "Q6_2": {
+                "question": "QID5",
+                "subQuestion": "QID5.subQuestions.2"
+            },
+            "Q6_3": {
+                "question": "QID5",
+                "subQuestion": "QID5.subQuestions.3"
+            },
+            "Q6_4": {
+                "question": "QID5",
+                "subQuestion": "QID5.subQuestions.4"
+            },
+            "Q6_5": {
+                "question": "QID5",
+                "subQuestion": "QID5.subQuestions.5"
+            },
+            "Q7_1": {
+                "question": "QID7",
+                "subQuestion": "QID7.subQuestions.1"
+            },
+            "Q7_2": {
+                "question": "QID7",
+                "subQuestion": "QID7.subQuestions.2"
+            },
+            "Q7_3": {
+                "question": "QID7",
+                "subQuestion": "QID7.subQuestions.3"
+            },
+            "Q9": {
+                "question": "QID9"
+            }
+        },
+        "blocks": {
+            "BL_6G3064l3VTLKbFH": {
+                "description": "CONSENT BLOCK",
+                "elements": [
+                    {
+                        "type": "Question",
+                        "questionId": "QID1"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID17"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID11"
+                    }
+                ]
+            },
+            "BL_6MgkQLdkE0LG6AR": {
+                "description": "SCREENER",
+                "elements": [
+                    {
+                        "type": "Question",
+                        "questionId": "QID2"
+                    },
+                    {
+                        "type": "PageBreak"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID3"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID12"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID14"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID16"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID15"
+                    },
+                    {
+                        "type": "PageBreak"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID4"
+                    }
+                ]
+            },
+            "BL_266BvHiQ7XwYp7f": {
+                "description": "SCREENOUT BLOCK",
+                "elements": [
+                    {
+                        "type": "Question",
+                        "questionId": "QID8"
+                    }
+                ]
+            },
+            "BL_37TNica49UNeBWB": {
+                "description": "MAIN BLOCK",
+                "elements": [
+                    {
+                        "type": "Question",
+                        "questionId": "QID13"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID6"
+                    },
+                    {
+                        "type": "PageBreak"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID5"
+                    },
+                    {
+                        "type": "PageBreak"
+                    },
+                    {
+                        "type": "Question",
+                        "questionId": "QID7"
+                    },
+                    {
+                        "type": "PageBreak"
+                    }
+                ]
+            },
+            "BL_9nvjq2a9hjuupwN": {
+                "description": "EXIT_2 BLOCK",
+                "elements": [
+                    {
+                        "type": "Question",
+                        "questionId": "QID9"
+                    }
+                ]
+            }
+        },
+        "flow": [
+            {
+                "type": "EmbeddedData"
+            },
+            {
+                "type": "Authenticator"
+            },
+            {
+                "id": "BL_6G3064l3VTLKbFH",
+                "type": "Block"
+            },
+            {
+                "id": "BL_6MgkQLdkE0LG6AR",
+                "type": "Block"
+            },
+            {
+                "type": "Branch",
+                "flow": [
+                    {
+                        "id": "BL_266BvHiQ7XwYp7f",
+                        "type": "Block"
+                    },
+                    {
+                        "type": "EndSurvey"
+                    }
+                ]
+            },
+            {
+                "id": "BL_37TNica49UNeBWB",
+                "type": "Block"
+            },
+            {
+                "id": "BL_9nvjq2a9hjuupwN",
+                "type": "Block"
+            },
+            {
+                "type": "EndSurvey"
+            }
+        ],
+        "embeddedData": [
+            {
+                "name": "PROJECT_NAME",
+                "defaultValue": "${e://Field/PROJECT_NAME}"
+            },
+            {
+                "name": "PROJECT_NUMBER",
+                "defaultValue": "${e://Field/PROJECT_NUMBER}"
+            },
+            {
+                "name": "CSS_ID",
+                "defaultValue": "${e://Field/ExternalDataReference}"
+            }
+        ],
+        "comments": {
+            "QID4": {
+                "commentList": [
+                    {
+                        "userId": "UR_bK5zeOW5k7d3Qa1",
+                        "message": "Citation for this question please???",
+                        "timestamp": 1519919916
+                    }
+                ]
+            }
+        },
+        "loopAndMerge": {},
+        "responseCounts": {
+            "auditable": 1,
+            "generated": 26,
+            "deleted": 9
+        }
+    },
+    "meta": {
+        "httpStatus": "200 - OK",
+        "requestId": "e2d3a876-a3c1-47b4-803d-534b46b2d1de"
+    }
+}

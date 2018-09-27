@@ -1,0 +1,178 @@
+[
+    {
+        "VariableId": 45167,
+        "VariableName": "BEGIN",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "1",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45168,
+        "VariableName": "Q1",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45169,
+        "VariableName": "Q2",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45170,
+        "VariableName": "Q3",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45171,
+        "VariableName": "Q4",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45172,
+        "VariableName": "Q5",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45173,
+        "VariableName": "Q6",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45176,
+        "VariableName": "Q8",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45177,
+        "VariableName": "Q7",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "3",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45178,
+        "VariableName": "END",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "1",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "VariableId": 45183,
+        "VariableName": "REENTRY",
+        "Matrices": [
+            {
+                "Index": 1,
+                "Mentions": [
+                    {
+                        "Index": 1,
+                        "Value": "1",
+                        "OpenEnd": null
+                    }
+                ]
+            }
+        ]
+    }
+]
