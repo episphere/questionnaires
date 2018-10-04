@@ -5,14 +5,17 @@ quest=function(){
     quest.surveyjsDiv=document.getElementById('surveyjsDiv')
     quest.qualticsDiv=document.getElementById('qualticsDiv')
     quest.voxcoDiv=document.getElementById('voxcoDiv')
+    quest.monkeyDiv=document.getElementById('monkeyDiv')
 
     quest.surveyjsBt=document.getElementById('surveyjsBt')
     quest.qualticsBt=document.getElementById('qualticsBt')
     quest.voxcoBt=document.getElementById('voxcoBt')
+    quest.monkeyBt=document.getElementById('monkeyBt')
 
     if(quest.surveyjsBt){quest.surveyjsBt.onclick=quest.surveyjs}
     if(quest.qualticsBt){quest.qualticsBt.onclick=quest.qualtics}
     if(quest.voxcoBt){quest.voxcoBt.onclick=quest.voxco}
+    if(quest.monkeyBt){quest.monkeyBt.onclick=quest.monkey}
     //debugger
 }
 
@@ -142,6 +145,12 @@ quest.voxco.showVoxcoPre=function(){
     }
 }
 
+//https://www.surveymonkey.com/r/RMS2NJB
+
+quest.monkey=()=>{
+    showMonkeyDiv.hidden=!showMonkeyDiv.hidden
+    //debugger
+}
 
 
 window.onload=quest
