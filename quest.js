@@ -79,7 +79,7 @@ quest.surveyjs.showAssembly=function(){
 quest.qualtics=()=>{
     $.getJSON('Qualtrics_Survey.json').then(function(x){
         var h = '<h4>Testing <a href="https://www.qualtrics.com/research-core/survey-software/" target="_blank">Qualtrics</a></h4>'
-        h += '<p> <span id="showQualtricsPre" style="color:blue;cursor:hand">Show</span> JSON form, embeding <a href="https://www.qualtrics.com/community/discussion/483/qualtrics-client-side-javascript-api-or-embedded-data" target="_blank">not supported</a></p>'
+        h += '<p> <span id="showQualtricsPre" style="color:blue;cursor:hand">Show</span> JSON form, embeding <a href="https://www.qualtrics.com/community/discussion/483/qualtrics-client-side-javascript-api-or-embedded-data" target="_blank">not supported</a> but <a href="https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/" target="_blank">JS embedding is</a>.</p>'
         h += '<pre id="qualtricsPre" hidden=true></pre>'
         h += '<p> <span id="showQualtricsDataPre" style="color:blue;cursor:hand">Show</span> JSON data</p>'
         h += '<pre id="qualtricsDataPre" hidden=true></pre>'
